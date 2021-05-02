@@ -1,0 +1,57 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текта #757575 */
+/* основной цвет фона #fff */
+/* вторичный цвет фона #F5F4FA */
+/* цвет акцента #2196F3 */
+/* цвет контактов rgba(255, 255, 255, 0.6) */
+/* фон футера и героя #2F303A */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-background-color: #fff;
+  --secondary-background-color: #f5f4fa;
+  --accent-color: #2196f3;
+}
+body {
+  font-family: 'Roboto', 'Raleway', 'Oleo Script', sans-serif;
+  background-color: #fff;
+  color: #212121;
+}
+/* Хедер */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.header-studio {
+  color: #000;
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+  color: #fff;
+}
+.hero-title {
+  font-weight: 900;
+}
+
+/* Футер */
+footer {
+  background-color: #2f303a;
+}
+address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.footer-studio {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
