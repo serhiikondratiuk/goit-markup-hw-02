@@ -44,6 +44,9 @@ body {
 .nav-link:target {
   color: var(--accent-color);
 }
+.nav-link.current {
+  color: var(--accent-color);
+}
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
@@ -91,6 +94,35 @@ body {
   color: var(--secondary-text-color);
 }
 /* Чем мы занимаемся */
+.occupations-header {
+  font-size: 36px;
+  line-height: 1.17;
+}
+.occupations-list {
+  list-style: none;
+}
+/* Наша команда */
+.team {
+  background-color: var(--secondary-background-color);
+}
+.team-header {
+  font-size: 36px;
+  line-height: 1.17;
+}
+.team-list {
+  list-style: none;
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.84;
+}
+.member-post {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.84;
+  color: var(--secondary-text-color);
+}
 /* Футер */
 .footer {
   background-color: #2f303a;
