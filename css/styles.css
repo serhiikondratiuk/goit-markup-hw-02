@@ -5,6 +5,7 @@
 /* цвет акцента #2196F3 */
 /* цвет контактов rgba(255, 255, 255, 0.6) */
 /* фон футера и героя #2F303A */
+/* ховер/фокус кнопки героя #188CE8 */
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -80,6 +81,10 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
 /* Особенности */
 .features-list {
   list-style: none;
@@ -123,6 +128,27 @@ body {
   line-height: 0.84;
   color: var(--secondary-text-color);
 }
+/* ПОРТФОЛИО */
+/* Фильтр */
+.filter-list {
+  list-style: none;
+}
+.filter-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--secondary-background-color);
+}
+.filter-item:hover,
+.filter-item:focus {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+.filter-item.current {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+
 /* Футер */
 .footer {
   background-color: #2f303a;
