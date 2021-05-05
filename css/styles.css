@@ -22,6 +22,7 @@ body {
 /* Хедер */
 .logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
@@ -74,6 +75,7 @@ body {
   line-height: 1.36;
 }
 .button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -120,12 +122,12 @@ body {
 .team-member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.18;
 }
 .member-post {
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.18;
   color: var(--secondary-text-color);
 }
 /* ПОРТФОЛИО */
@@ -134,6 +136,7 @@ body {
   list-style: none;
 }
 .filter-item {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -144,11 +147,19 @@ body {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
 }
-.filter-item.current {
-  color: var(--primary-background-color);
-  background-color: var(--accent-color);
+/* Галерея */
+.portfolio-list {
+  list-style: none;
 }
-
+.item-header {
+  font-size: 18px;
+  line-height: 2;
+}
+.item-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
+}
 /* Футер */
 .footer {
   background-color: #2f303a;
